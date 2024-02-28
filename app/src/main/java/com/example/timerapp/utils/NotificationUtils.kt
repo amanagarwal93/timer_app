@@ -50,7 +50,7 @@ fun showNotification(context: Context) {
         .getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE)
 
     val builder = NotificationCompat.Builder(context, channelId)
-        .setSmallIcon(R.drawable.ic_pause)
+        .setSmallIcon(R.mipmap.ic_launcher)
         .setContentTitle(context.getString(R.string.app_name))
         .setContentText(context.getString(R.string.notification_description))
         .setPriority(NotificationCompat.PRIORITY_DEFAULT)
