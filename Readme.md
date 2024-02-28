@@ -1,4 +1,4 @@
-<img src="images/timer_icon.png" alt="Timer logo"/>
+<img src="drawable/timer_icon.png" alt="Timer logo"/>
 
 # Timer Application
 
